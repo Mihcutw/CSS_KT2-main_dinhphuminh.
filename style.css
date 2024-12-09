@@ -120,21 +120,17 @@ ul {
     margin:10px;
     margin-right:10px ;
 }
-.bai1{
-    .article-img {
+.bt1 .article-img{
         width: 35%;
         height: auto;
         float:left;
         margin-right: 15px;
-    }
-}
-.bai2{
-    .article-img {
+ }
+.bt2 .article-img{
         width: 35%;
         height: auto;
         float:left;
         margin-right: 15px;
-    }
 }
 
 
