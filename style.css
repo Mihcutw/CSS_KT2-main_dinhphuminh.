@@ -138,9 +138,7 @@ ul {
 }
 
 
-.menu-child nav ul li{
-  display: inline-block;
-}
+
 header nav .menu-child{
   display: none;
   position: absolute;
@@ -155,6 +153,8 @@ header nav a:hover{
 }
 header nav ul li:hover .menu-child a:hover{
   background-color: #bd9b8c;
+  display: flex;
+  flex-direction: column;
 }
 @media screen and (max-width: 767px ){ 
   .sidebar{
