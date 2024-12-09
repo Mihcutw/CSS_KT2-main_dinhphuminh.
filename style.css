@@ -110,7 +110,10 @@ ul {
   footer {
     text-align: center;
     color: #b67352;
-    padding: 50px;
+    padding: 5px;
+    border-top: 2px solid #ECB15A;
+    margin-top: 10px;
+    font-style: italic;
 }   
   .sidebar2{
     width:10%;
@@ -118,7 +121,7 @@ ul {
     margin-right:10px ;
 }
 .bai1{
-    .article-image {
+    .article-img {
         width: 35%;
         height: auto;
         float:left;
@@ -126,12 +129,53 @@ ul {
     }
 }
 .bai2{
-    .article-image {
+    .article-img {
         width: 35%;
         height: auto;
         float:left;
         margin-right: 15px;
     }
+}
+
+
+.menu-child nav ul li{
+  display: inline-block;
+}
+header nav .menu-child{
+  display: none;
+  position: absolute;
+  background-color: gray;
+  
+}
+header nav ul li:hover .menu-child{
+  display: block;
+}
+header nav a:hover{
+  background-color: #ECB15A;
+}
+header nav ul li:hover .menu-child a:hover{
+  background-color: #bd9b8c;
+}
+@media screen and (max-width: 767px ){ 
+  .sidebar{
+    display: none;
+  }
+  .main .main-content{
+    width: 100%;
+    background-color: blue;
+  }
+  .main .main-content article h2{
+    color: white !important;
+  }
+  .main .main-content article-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left ;
+  }
+  nav>ul{
+    display: none !important;
+  }
 }
 
 
